@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&isplay=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    
+   
+}
+
+#about{
+    background-color:#e7d7dd ;
+}
+
+h4{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 80px;
+}
+p{
+   align-content: center;
+   padding: 10px;
+}
+
+#about .s{
+  margin-left: 600px;
+   height: 100px;
+}
+
+/*NAVBAR*/
+
+body {
+    width: 100%;
+}
+
+/*logo*/
+.logo {
+   
+   float:left;
+   left:0;
+   margin: 0px 30px;
+   position:fixed;
+   
+}
+/*Header*/
+#header{
+   display:flex; 
+   align-items:flex-start;
+   justify-content: end;
+   padding: 20x 80px;
+   background: #dfd7eb; 
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ;
+   position: sticky;
+   z-index :999;
+   top:0;
+   left: 0;
+
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(24, 16, 16);
+    transition: 0.3s ease;
+
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+
+  color:rgb(127, 135, 21);
+
+}
