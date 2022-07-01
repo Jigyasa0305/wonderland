@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wonderland Online Shopping</title>
+    <link rel="stylesheet" href="product.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+     
+    <section id="header">
+        <div class = "logo"><a href="#"><img src="img/logo_1.png" class="logo" alt="" width="50px" ></a></div>
+  
+          <div>
+              <ul id="navbar">
+                  
+                  
+                  <li><a class="active" href="index.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+              </ul> 
+          
+          </div>
+      </section>
+
+    <div class="product-card">
+      <h1>FLORAL DRESS</h1>
+      
+      <div class="product-pic">
+        <img src="img/featured products/d2.jpeg" alt="" width="300px" height="350px">
+      </div>
+     
+      <div class="product-info">
+        <div class="product-price">₹677</div>
+        <a href="#" class="product-button">Add to Cart</a>
+      </div>
+    </div>
+ 
+    <script>
+      $(".product-colors span").click(function(){
+        $(".product-colors span").removeClass("active");
+        $(this).addClass("active");
+        $("body").css("background",$(this).attr("data-color"));
+        $(".product-price").css("color",$(this).attr("data-color"));
+        $(".product-button").css("color",$(this).attr("data-color"));
+        $(".product-pic").css("background-image",$(this).attr("data-pic"));
+      });
+    </script>
+  </body>
+</html>
