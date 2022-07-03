@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&isplay=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+body{
+  background-color:#e7d7dd;
+  width: 100%;
+}
+
+h1 {
+     font-size: 50px;
+     line-height: 64px;
+     color: #222;
+}
+
+h2 {
+     font-size: 46px;
+     line-height: 54px;
+     color: #222;
+}
+
+h4{
+     font-size: 20px;
+     color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+     font-size: 16px;
+     color: #465b52;
+     margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+/*logo*/
+.logo {
+   
+   float:left;
+   left:0;
+   margin: 0px 30px;
+   position:fixed;
+   
+}
+/*Header*/
+#header{
+   display:flex; 
+   align-items:flex-start;
+   justify-content: end;
+   padding: 20x 80px;
+   background: #dfd7eb; 
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ;
+   position: sticky;
+   z-index :999;
+   top:0;
+   left: 0;
+
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(24, 16, 16);
+    transition: 0.3s ease;
+
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+
+  color:rgb(127, 135, 21);
+
+}
+
+.shopping-cart {
+
+  background: #e7d7dd;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 0px;
+  height: 200px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+
+
+
+
+.image {
+  margin-right: 50px;
+}
+ 
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+button:focus,
+input:focus {
+  outline:0;
+}
+
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+
